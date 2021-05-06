@@ -1,0 +1,41 @@
+# Intellij Idea project files
+.idea
+*.iml
+*.ipr
+*.iws
+
+# gradle config
+.gradle
+
+# project binaries
+build
+out
+classes
+
+# sonar
+sonar-project.properties
+.sonar
+
+# mac os x
+.DS_Store
+
+# netbeans
+.nb-gradle
+
+/config
+
+# provisioning auto-generated files
+**/provisioning/deployment.yml
+
+application-local.yml
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
+.bsp
